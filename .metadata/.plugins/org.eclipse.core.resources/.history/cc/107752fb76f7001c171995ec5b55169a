@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='collor_size'
+	var value=40;
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	
+	var myCookies=document.cookie;
+	var cookie=unescape(myCookies);
+	
+	var cookieList=cookie.split(";")
+	
+	alert(cookieList)
+	
+	for(indxPos in cookies){
+		
+		cookie=cookies[indxPos]
+		
+			value=cookie.split('=');
+			
+			document.write('i will show your')
+		
+	}
+	
+}
+
+(function(){
+	
+	
+	setCookie();
+})();

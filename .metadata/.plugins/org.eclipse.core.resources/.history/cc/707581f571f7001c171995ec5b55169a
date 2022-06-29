@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	
+}
+function readCookie(){
+	
+	
+}
+
+(function(){
+	
+	
+	setCookie();
+})();

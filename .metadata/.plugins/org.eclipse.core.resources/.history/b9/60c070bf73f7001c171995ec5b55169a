@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='collor_size'
+	var value=40;
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	
+	
+}
+
+(function(){
+	
+	
+	setCookie();
+})();

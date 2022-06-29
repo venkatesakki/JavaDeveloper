@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1368261993.index
+/jstl_session_handling/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2450608944.index
+/jsp_jstl/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3657789959.index
+/crud_operation_practice/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/161566559.index
+/quickstart1/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/927692848.index
+/filters_example/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2426630985.index
+/listeners_example/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/205725468.index
+/java_bean_example/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3364530707.index
+/Servlet/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2034299730.index
+/webapplication/src/main/java
+/home/vastpro/NewServlet/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4098421342.index
+/java_bean_example/src/main/java

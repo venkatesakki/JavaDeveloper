@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Css Style</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h1 id="title">Style with Css</h1>
+	<h4>Vastpro</h4>
+
+
+	<div class="bigBox">Chennai</div>
+	<div class="bigBox" style="visibility: hidden">Tenkasi</div>
+	<div class="bigBox" style="display: none;">Teni</div>
+
+	<div class="bigBox effect">Coimbatore</div>
+	<img alt="Book1" src="images/jetslogo.png">
+	<img alt="Book2" src="images/sample1.jpeg">
+
+	<div>
+		<p>Inside Div Tag</p>
+	</div>
+
+	<section></section>
+	<p>Adjacent to section Tag</p>
+
+
+	<table class="table">
+		<thead class="ligt">
+			<tr>
+				<th>Student Name</th>
+				<th style="width: 140px">Branch</th>
+				<th>Mark</th>
+			</tr>
+		</thead>
+
+
+		<tbody class="dark">
+			<tr>
+				<td>Ramesh</td>
+				<td>B.E(EEE)</td>
+				<td>85</td>
+			</tr>
+			<tr>
+				<td>Chandru</td>
+				<td>Bsc(Math)</td>
+				<td>95</td>
+			</tr>
+			<tr>
+				<td>Bala</td>
+				<td>B.A(Eco)</td>
+				<td>85</td>
+			</tr>
+			<tr>
+				<td>Ram</td>
+				<td>M.E(ECE)</td>
+				<td>90</td>
+			</tr>
+		</tbody>
+		<tfoot class="darkest">
+			<tr>
+				<td colspan="2" class="centerText">Average</td>
+				<td>86.25</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+<form action="">
+<label for="userName">user Name</label><input type="text" name="userName" id="userName"/>
+<label for="city">City</label><input type="text" name="city" id="city"/>
+<label>Java</label>
+<input>
+
+</form>	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+</body>
+</html>

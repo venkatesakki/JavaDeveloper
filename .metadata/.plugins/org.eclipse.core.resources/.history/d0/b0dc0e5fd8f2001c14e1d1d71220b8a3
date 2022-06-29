@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+function display()
+{
+	alert('welcome to javaScript')
+}
+var app={}
+
+app.display=function()
+{
+	alert("I am annonymous function")
+}

@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+function callServlet()
+{
+	var xhr=new XMLHttpRequest();
+	var userNameFid=document.getElementById("userName");
+	
+	var userName=userName.value;
+	
+	var url="validate?userName="+userName;
+	userName.addEventListener("click",function(){});
+	
+	xhr.onreadystatechange=processRequest;
+	xhr.open(GET,url,true);
+	xhr.send(null);
+}
+}

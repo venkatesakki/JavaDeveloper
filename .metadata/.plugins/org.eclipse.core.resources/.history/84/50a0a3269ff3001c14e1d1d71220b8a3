@@ -1,0 +1,10 @@
+package com.training.practice;
+
+import com.training.interface1.CrudRepository;
+
+public class StudentRespository implements CrudRepository<Employee>{
+	
+	
+	
+
+}

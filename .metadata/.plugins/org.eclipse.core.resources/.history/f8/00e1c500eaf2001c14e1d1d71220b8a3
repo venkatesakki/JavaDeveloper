@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+function callServlet()
+{
+	var xhr=new XMLHttpRequest();
+	var userName=document.getElementById("city");
+	cityBtn.addEventListener("click",function(){
+	
+	xhr.onreadystatechange=processRequest;
+	xhr.open(GET,url,true);
+	xhr.send(null);
+}
+function processRequest()
+{
+	
+}

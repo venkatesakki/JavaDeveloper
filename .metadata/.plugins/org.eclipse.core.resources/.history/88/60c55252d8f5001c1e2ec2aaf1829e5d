@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Css Style</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 id="title">Style with Css</h1>
+<h4>Vastpro</h4>
+
+
+<div class="bigBox">Chennai</div>
+<div class="bigBox" style="visibility:hideen">Tenkasi</div>
+<div class="bigBox effect">Coimbatore</div>
+</body>
+</html>

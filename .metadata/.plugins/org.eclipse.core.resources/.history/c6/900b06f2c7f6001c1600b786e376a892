@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+
+
+function usingWindowObj(){
+	
+	window.location="http://www.google.com";
+	
+}
+
+function windowObjOpen(){
+	
+	window.open("index.html","indecmessage");
+	
+}
+
+function invoke(){
+	
+	var goToGoogleButton = document.getElementById('googleBtn');
+	goToGoogleButton.addEventListener('click',usingWindowObj);
+	
+	
+	
+	var openWindowButton=document.getElementById('openBtn');
+	openWindowButton.addEventListener('click',windowObjOpen);
+	
+	var printButton = document.getElementById('printBtn');
+	printButton.addEventListener('click',function(){
+		
+		window.print();
+	});
+	
+}
+function usingArrays(){
+	//arrays using shortct
+	var linkText=['home','client','career','aboutus','downloads'];
+	
+	var city=new Array('chennai','mumbai','hydarabad');
+	
+	var countries=new Array();
+	
+	countries[0]='nepal';
+	countries[1]='pootan';
+	countries[2]='kazhmir'
+}
+(function(){
+	invoke();
+	
+})();
+
+

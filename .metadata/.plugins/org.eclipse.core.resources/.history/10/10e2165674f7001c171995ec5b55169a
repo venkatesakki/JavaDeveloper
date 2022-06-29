@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='collor_size'
+	var value=40;
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	var cookies=document.cookie;
+	
+	for(indxPos in cookies){
+		
+		cookie=cookies[indxPos]
+	}
+	
+}
+
+(function(){
+	
+	
+	setCookie();
+})();

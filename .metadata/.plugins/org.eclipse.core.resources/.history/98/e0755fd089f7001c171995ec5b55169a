@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Using JavaScript Vlidation</title>
+</head>
+<body>
+
+<form action="welcome.html" id="regForm"> 
+	<label>First Name</label>
+	<input type="text" name="firstName" id="firstName"/>
+	
+	<label>Last Name</label>
+	<input type="text" name="lastName" id="lastName"/>
+	
+	<label>Code</label>
+	<input type="text" name="email" id="email"/>
+	<input type="submit" value="register"/>
+	</form>
+	
+<script type="text/javascript" src="scripts/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+
+function validate(){
+	
+	
+	console.log('validate function');
+	event.preventDefault();
+	var textfields=document.getElementsByTagName('input');
+	//console.log(textfields.length);
+	
+	for(var i=0;i<textfields;i++){
+		
+		console.log(textfields[i].value);
+	}
+}
+function init(){
+	
+	var formElement=document.getElementById('regForm');
+	
+	formElement.addEventListener('submit',validate);
+}
+
+(function(){
+	
+	
+	init();
+})()
+	

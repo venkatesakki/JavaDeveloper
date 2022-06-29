@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='collor_size'
+	var value=40;
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	var cookies=document.cookie;
+	
+	for(indxPos in cookies){
+		
+		cookie=cookies[indxPos]
+		if(cookie.name=='collor_sixe'){
+			value=cookie.spilt('')
+			document.write('i will show your')
+		}
+	}
+	
+}
+
+(function(){
+	
+	
+	setCookie();
+})();

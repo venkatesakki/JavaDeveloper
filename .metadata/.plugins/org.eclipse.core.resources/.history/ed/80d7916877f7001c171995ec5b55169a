@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='collor_size'
+	var value=40;
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	
+	var myCookies=document.cookie;
+	var cookie=unescape(myCookies);
+	
+	var cookieList=cookie.split(";")
+	
+	sizeCookie=cookieList[0];
+	
+	
+		
+		
+		
+			var values=sizeCookie.split('=');
+			
+			document.write('i will show your models and brands for size :'+values)
+		
+	}
+	
+
+
+(function(){
+	
+	readCookie();
+	setCookie();
+})();

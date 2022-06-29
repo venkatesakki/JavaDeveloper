@@ -1,0 +1,46 @@
+/**
+ * Example on Different ways of writing javaScript function
+ */
+
+
+//simple named function
+
+function simple()
+{
+	console.log("Hello World");
+}
+
+
+//simpe named function with argument and handling the acse where argument is not passess
+function withArgs(name)
+{
+	if(name==null)   // checked the presence of argument
+	{
+		document.write(' welcome Guest ')
+		
+	}else{
+			document.write(' welcome '+name);
+	}
+}
+// Named function expression
+
+var usdToInr=function(usd){
+	
+	return usd*78;
+}
+
+(function(){
+	
+	/*simple();
+	withArgs();
+	withArgs('venkat');*/
+	console.log(usdToInr);
+})();
+
+
+
+
+
+
+
+

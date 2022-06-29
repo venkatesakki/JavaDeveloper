@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+var book={};
+function usingObjectLiterals()
+{
+	
+	
+	book.bookName='vedikai parpavan';
+	
+	book.discount=function(){
+		
+		return 0.10;
+	}
+	
+	document.write('<p>'+'Book name :'+book.bookName+'<p>');
+	document.write('discount :'+book.discount())
+	
+}
+
+function usingBojectLiteralSecondWay(){
+	
+	var book={
+		
+		bookName:'javaScript', discount:function(){
+			
+			return 0.52;
+		}
+	};
+}
+
+function usingBlankObjects()
+{
+	var book = new object();
+	
+	book.bookName='bala kandam';
+	
+	book.discount=function(){
+		
+		return 0.28;
+	}
+	
+	document.write('<p>'+'Book name :'+book.bookName+'<p>');
+	document.write('discount :'+book.discount())
+	
+}
+(function(){
+	
+	usingObjectLiterals();
+		usingBlankObjects();
+		usingBojectLiteralSecondWay();
+})();

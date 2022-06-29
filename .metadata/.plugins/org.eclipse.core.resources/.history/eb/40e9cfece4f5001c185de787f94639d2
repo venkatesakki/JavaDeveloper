@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+	
+margin:0;
+padding:0;	
+}
+/*Id sector*/
+#title{
+	text-align:center;
+	font-family:serif;
+	font-size:1.2em;
+	color:#aa11BB;	
+}
+.bigBox{
+	
+	width:200px;
+	height:100px;
+	border:2px solid green;
+	display:inline;
+}
+.bigBox.effect{
+	
+	border-radius:15px 20px 15px 20px;
+}
+
+img[alt="Book1"]{
+	width:200px;
+	height:100px;
+	border:3px solid gold;
+
+}
+
+img[src*="sample"]{
+	
+	width:100px;
+	height:50px;
+	border:4px solid green;	
+}
+
+section+p{
+	
+	font-size:1.4em;
+	font-weight:bolder;
+}
+
+div>p{
+	
+	font-family:cursive;
+	font-weight:bold;
+	color:#AA11DD;
+}
+
+/* pseudo Class*/
+img:hover{
+	
+	width:50px;
+	height:50px
+}
+
+/*pseudo Element : difference is : and  ::*/
+#first::first-left{
+	font-family:serif;
+	font-size:1.2em;
+}
+
+/*Element Sector */
+table{
+	
+	border:1px solid green;
+	border-collapse:collapse;
+}
+
+/*Group Sector */
+td,tr,th{
+	border:2px solid blue;
+}
+
+/*Css pseudo selector*/
+tbody>tr:nth-child(odd){
+	background-color:yellow; 
+}
+
+/*Css pseudo class*/
+input[type='text']:focus{
+	
+	font-size:1.5em;
+	border:2px solod green;
+}
+
+/*Css pseudo class attribute selector and adjecent selector used below*/
+input[type='checkbox']:checked+label{
+	
+
+	border:1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

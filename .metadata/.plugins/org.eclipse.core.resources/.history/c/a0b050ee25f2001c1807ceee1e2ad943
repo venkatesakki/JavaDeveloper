@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book Bank</title>
+<link href="images/jetslogo.png" type="image/png" rel="icon"/>
+</head>
+<body class="background">
+
+<img alt="logo of the librey" src="images/jetslogo3.png">
+
+<ul>
+
+<li><a href="aboutus.html" >About Us</a></li>
+<li><a href="client.html">Client</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</body>
+</html>

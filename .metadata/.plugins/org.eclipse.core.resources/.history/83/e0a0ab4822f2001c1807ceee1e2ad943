@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Client List</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+h1{
+
+color:#ffAAff;
+}
+</style>
+</head>
+<body>
+<h1 class="centerText">Cllient List</h1>
+<h4 class="centerText">2021-2022</h4>
+<table>
+	<thead class="ligt">
+		<tr>
+			<th>Student Name</th>
+			<th>Branch</th>
+			<th>Mark</th>
+		</tr>
+	</thead>
+
+
+<tbody >
+	<tr>
+		<td>Ramesh</td>
+		<td>B.E(EEE)</td>
+		<td>85</td>
+	</tr>
+	<tr>
+		<td>Ram</td>
+		<td>M.E(ECE)</td>
+		<td>90</td>
+	</tr>
+</tbody>
+<tfoot>
+<tr>
+	<td colspan="2" class="centerText">Average</td>
+	<td>87.5</td>
+</tr>
+</tfoot>
+</table>
+</body>
+</html>

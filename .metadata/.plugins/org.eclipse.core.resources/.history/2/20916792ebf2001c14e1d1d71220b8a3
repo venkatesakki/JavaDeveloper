@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+function callServlet()
+{
+	var xhr=new XMLHttpRequest();
+	
+	var userNameFld=document.getElementById("userName");
+	
+	
+	userNameFld.addEventListener("blur",function(){
+		
+		var userName=userNameFld.value;
+	
+	var url="validate?userName="+userName;
+	
+		xhr.onreadystatechange=processRequest;
+	xhr.open(GET,url,true);
+	xhr.send(null);
+		
+	});	
+}
+function processRequest()
+{
+	if(req.status=200 && req.readyState==4)
+	{
+		var msgFld=document.getElementById("msg");
+		msgFld.innerHTML=xhr.responseText;
+	}
+	
+}

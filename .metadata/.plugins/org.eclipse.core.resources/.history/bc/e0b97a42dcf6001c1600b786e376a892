@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+
+function incFontSize(){
+	
+	var para=document.getElementById("firstPara");
+	
+	//para.setAttribute("class","fontSizeUp");
+	para.setAttribute("style","font-size:"+'10px');
+	
+	
+}
+
+function addClickEvent(){
+	
+	var imgRef =document.getElementById("increment");
+	
+	imgRef.addEventListener('click',incFontSize);
+	
+	var imgRef =document.getElementById("decrement");
+	
+	imgRef.addEventListener('click',incFontSize);
+}
+
+(function(){
+	addClickEvent();
+
+})();

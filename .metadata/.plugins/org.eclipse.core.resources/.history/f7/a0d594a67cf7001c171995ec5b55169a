@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+
+function setCookie(){
+	
+	var name='bg_color'
+	var value='green';
+	document.cookie=name+'='+value;
+	
+}
+function readCookie(){
+	
+	var cookie=document.cookie;
+	
+	
+	var cookieList=cookie.split(";")
+	
+	var sizeCookie=cookieList[0];
+	
+	var values=sizeCookie.split('=');
+	
+		//document.write('i will show your models and brands for size :'+values);
+			
+	var colorValue=values[1];
+			
+	document.body.setAttribute('style','background-color:'+colorValue)
+	
+	
+	}
+	
+
+
+(function(){
+	
+	//readCookie();
+	setCookie();
+})();

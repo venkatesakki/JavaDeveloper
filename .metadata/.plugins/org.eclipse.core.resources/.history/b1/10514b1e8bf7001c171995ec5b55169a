@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+
+function validate(){
+	
+	
+	document.write('validate function');
+	//event.preventDefault();
+	var textfields=document.getElementsByTagName('input');
+	//console.log(textfields.length);
+	
+	for(var i=0;i<textfields-1;i++){
+		
+		console.log(textfields[i].value);
+	}
+	
+	if(textfields[i].value=='')
+	{
+		
+		document.getElementById('msg').innerHTML="required should not be blank";
+		return false;
+	}
+}
+function init(){
+	
+	var formElement=document.getElementById('regForm');
+	
+	formElement.addEventListener('submit',validate);
+}
+
+(function(){
+	
+	
+	init();
+})()
+	

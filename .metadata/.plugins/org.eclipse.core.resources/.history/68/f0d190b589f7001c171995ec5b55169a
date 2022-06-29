@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+
+function validate(){
+	
+	
+	console.log('validate function');
+	event.preventDefault();
+	var textfields=document.getElementsByTagName('input');
+	console.log(textfields.length);
+}
+function init(){
+	
+	var formElement=document.getElementById('regForm');
+	
+	formElement.addEventListener('submit',validate);
+}
+
+(function(){
+	
+	
+	init();
+})()
+	

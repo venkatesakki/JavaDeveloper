@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register User</title>
+<link href="images/jetslogo.png" type="image/png" rel="icon"/>
+<link href="styles/style.css" type="text/css" rel="stylesheet">
+
+<style type="text/css">
+
+ul>li{
+display:inline;
+
+margin-left:50px;
+}
+a{
+text-decoration: none;
+font-size: 1.2em;
+}
+
+.smallImage {
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	border-radius: 10px;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+</style>
+</head>
+<body>
+	<header>
+		<img alt="Image of Book" src="images/sample.jpg" class="smallImage left" >
+		<img alt="Image of Book" src="images/sample1.jpeg" class="smallImage right">
+		<nav>
+			<ul style="margin-left:90px">
+
+				<li><a href="aboutus.html">AboutUs</a></li>
+				<li><a href="client.html">Client</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<section style="width:100%;background-color: grey">
+		
+			<article style="width:30%"></article>
+			<article style="width:70%">
+				<form action="client.html" method="post">
+					<label for="firstName">First Name</label> <input type="text"
+						name="firstName" id="firstName" required /> <label for="email">Email</label>
+					<input type="email" name="email" id="email" multiple="multiple" />
+					<label for="birthDate">Date of Birth</label> <input type="date"
+						name="birthDate" id="birthDate" /> <label for="mobile">Mobile
+						Number</label> <input type="tel" name="mobileNumber" id="mobile"
+						pattern="[0-9]{10}" /> <label for="">Qualification</label> <label
+						for="ug">UderQualification</label> <input type="radio"
+						value="Under Graduate" name="qualidication" id="ug" /> <label
+						for="pg">PostQualification</label> <input type="radio"
+						value="Post Graduate" name="qualidication" id="pg" /> <label
+						for="skill">Skill sets</label> <label for="java">Java</label> <input
+						type="checkbox" value="java" name="skill" id="java" /> <label
+						for="spring">Spring</label> <input type="checkbox" value="spring"
+						name="skill" id="spring" /> <label for="notes">Notes</label>
+					<textarea name="notes" cols="30" rows="5" id="notes"
+						placeholder="Enter date of birth"></textarea>
+
+					<input type="reset" value="Clear" /> <input type="submit"
+						value="submit" />
+				</form>
+			</article>
+		
+		<footer></footer>
+	</section>
+
+</body>
+</html>

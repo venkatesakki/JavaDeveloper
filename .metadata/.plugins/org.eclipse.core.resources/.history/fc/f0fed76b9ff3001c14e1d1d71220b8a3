@@ -1,0 +1,48 @@
+package com.training.practice;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.training.interface1.CrudRepository;
+
+public class StudentRespository implements CrudRepository<Employee>{
+	private Connection con;
+	
+	
+	
+	public StudentRespository(Connection con) {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Employee add(Employee t) {
+		
+		return null;
+	}
+
+	@Override
+	public List<Employee> viewAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee upadte(Employee t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee delete(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> search(String employeeName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
+}

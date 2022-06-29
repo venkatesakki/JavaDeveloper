@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScrit Scope</title>
+</head>
+<body>
+
+<a href="usingjsobject.html">Next</a>
+<a href="#" onclick="back()">previous</a>
+<script type="text/javascript" src="scripts/js_scope.js"></script>
+</body>
+</html>

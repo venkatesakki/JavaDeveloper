@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<ul>
+	<li>
+		<a href="add.jsp">Add</a>
+		<a href="showdetails.jsp">View All</a>
+		<a href="">Update</a>
+		<a href="">Delete</a>
+		<a href="">Search</a>
+	</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.training.interface1;
+
+public interface CrudRepository {
+
+}

@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+
+function usingObjectLiterals()
+{
+	var book={};
+	
+	book.bookName='vedikai parpavan';
+	
+	book.discount=function(){
+		
+		return 0.10;
+	}
+	
+}

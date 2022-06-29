@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function back(){
+	history.back();
+}
+
+</script>
+
+</head>
+<body>
+
+<button id="googleBtn">Google</button>
+
+<button id="openBtn">Open</button>
+
+<button id="printBtn">print</button>
+
+
+<script type="text/javascript" src="scripts/js_objects.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<style type="text/css">
+ul>li {
+	display: inline;
+	margin-left: 50px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.smallImage {
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	border-radius: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-md-4">
+				<img alt="Image of Book" src="images/sample.jpg"
+					class="smallImage left">
+			</div>
+			<div class="col-md-4">
+				<h1>Gandhi Library</h1>
+			</div>
+
+			<div class="col-md-4">
+				<img alt="Image of Book" src="images/sample1.jpeg"
+					class="smallImage right">
+			</div>
+
+		</div>
+
+
+
+		<div class="row">
+			<nav class="col-md-12">
+				<ul style="margin-left: 90px">
+
+					<li><a href="aboutus.html">AboutUs</a></li>
+					<li><a href="client.html">Client</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
+				</ul>
+			</nav>
+
+
+		</div>
+		
+		<div class="row">
+		<div class="col-md-4"></div>
+			<div class="col-md-8">
+		
+	<table class="table table-striped">
+		<thead class="ligt">
+			<tr>
+				<th>Student Name</th>
+				<th style="width: 140px">Branch</th>
+				<th>Mark</th>
+			</tr>
+		</thead>
+
+
+		<tbody class="dark">
+			<tr>
+				<td>Ramesh</td>
+				<td>B.E(EEE)</td>
+				<td>85</td>
+			</tr>
+			<tr>
+				<td>Chandru</td>
+				<td>Bsc(Math)</td>
+				<td>95</td>
+			</tr>
+			<tr>
+				<td>Bala</td>
+				<td>B.A(Eco)</td>
+				<td>85</td>
+			</tr>
+			<tr>
+				<td>Ram</td>
+				<td>M.E(ECE)</td>
+				<td>90</td>
+			</tr>
+		</tbody>
+		<tfoot class="darkest">
+			<tr>
+				<td colspan="2" class="centerText">Average</td>
+				<td>86.25</td>
+			</tr>
+		</tfoot>
+	</table>
+		
+		
+		</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-8">
+
+				<form action="client.html" method="post">
+					<div class="form-group">
+						<label for="firstName">First Name</label> <input type="text"
+							name="firstName" id="firstName" required  class="form-control" placeholder="enter first name"/>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label> <input type="email" name="email"
+							id="email" multiple="multiple" class="form-control" placeholder="enter email id"/>
+					</div>
+					<div class="form-group">
+						<label for="birthDate">Date of Birth</label> <input type="date"
+							name="birthDate" id="birthDate" />
+					</div>
+					<div class="form-group">
+						<label for="mobile">Mobile Number</label> <input type="tel"
+							name="mobileNumber" id="mobile" pattern="[0-9]{10}" />
+					</div>
+					<div class="form-group">
+						<label for="">Qualification:</label>
+					
+						<label for="ug">UderQualification</label> <input type="radio"
+							value="Under Graduate" name="qualidication" id="ug" />
+					
+						<label for="pg">PostQualification</label> <input type="radio"
+							value="Post Graduate" name="qualidication" id="pg" />
+					</div>
+					<div class="form-group">
+						<label for="skill">Skill sets:</label>
+					
+						<label for="java">Java</label> <input type="checkbox" value="java"
+							name="skill" id="java" />
+					
+						<label for="spring">Spring</label> <input type="checkbox"
+							value="spring" name="skill" id="spring" />
+
+					</div>
+					<div class="form-group">
+						<label for="notes">Notes</label>
+					</div>
+					<div class="form-group">
+						<textarea name="notes" cols="30" rows="5" id="notes"
+							placeholder="Enter date of birth"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="reset" value="Clear" class="btn btn-danger" /> <input
+							type="submit" value="submit" class="btn btn-info" />
+
+					</div>
+				</form>
+
+
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

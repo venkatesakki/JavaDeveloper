@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+
+
+function usingWindowObj(){
+	
+	window.location="http.//www.google.com";
+	
+}
+
+function invoke(){
+	
+	var goToGoogleButton = document.getElementById('googleBtn');
+	goToGoogleButton.addEventListener('click',usingWindowObj);
+	
+	
+	
+	
+}
+
+
+

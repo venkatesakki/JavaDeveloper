@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action=""> 
+	<label>First Name</label>
+	<input type="text" name="firstName" id="firstName"/>
+	<label>Last Name</label>
+	<input type="text" name="lastName" id="lastName"/>
+	<label>Code</label>
+	<input type="text" name="code" id="code"/>
+	</form>
+	
+	<script type="text/javascript">
+	
+	readCookie();
+	
+	var firstName=document.getElementById("firstName");
+	var lastName=document.getElementById("lastName");
+	
+	 var code=document.getElementById("code"); 
+	
+	
+	firstName.addEventListener('blur',function(){
+		
+		
+		
+		var nameEntered=firstName.value;
+		
+		document.cookie=name+'='+nameEntered();
+		
+		 result=nameEntered.substring(0,3);
+		
+		/* document.getElementById("code").innerHTML = result; */
+		
+	});
+	
+	lastName.addEventListener('blur',function(){
+		
+		var nameEntered1=lastName.value;
+		
+		/* alert((nameEntered1.length-1).value) */
+		
+		
+		result1=nameEntered1.substring(nameEntered1.length-3,nameEntered1.length); 
+		
+		result3=result.concat(result1)
+		code.value=result3;
+		
+	}); 
+	
+	</script>
+</body>
+</html>

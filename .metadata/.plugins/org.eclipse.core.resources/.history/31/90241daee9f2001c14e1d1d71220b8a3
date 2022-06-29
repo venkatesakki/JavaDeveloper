@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+function callServlet()
+{
+	var xhr=new XMLHttpRequest();
+}
+function processRequest()
+{
+	
+}

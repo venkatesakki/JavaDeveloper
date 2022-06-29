@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dom Parsing</title>
+<style>
+.icon
+{
+width:20px;
+height:20px;
+}
+
+.fontSizeUp{
+
+font-size:1.2em;
+
+}
+</style>
+</head>
+<body>
+<img src="images/" id="increment" alt="Increse Font Size">
+
+<p id="firstPara">
+
+JavaScript is the world's most popular programming language.
+
+JavaScript is the programming language of the Web.
+
+JavaScript is easy to learn.
+
+This tutorial will teach you JavaScript from basic to advanced.
+</p>
+</body>
+</html>

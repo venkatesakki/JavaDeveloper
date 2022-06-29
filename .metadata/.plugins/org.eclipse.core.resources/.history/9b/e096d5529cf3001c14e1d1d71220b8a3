@@ -1,0 +1,12 @@
+package com.training.connection;
+
+public class ConnectionHub {
+	
+	public static Connection getConnection()
+	{
+		Connection con=null;
+		
+		return con;
+	}
+
+}

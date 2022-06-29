@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+function callServlet()
+{
+	var xhr=new XMLHttpRequest();
+	
+	xhr.onreadystatechange=processRequest;
+}
+function processRequest()
+{
+	
+}

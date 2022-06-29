@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+
+
+var name='Global Haspital';
+phone=54564654654654;
+
+function show(){
+	
+	console.log('Name '+name);
+	console.log('Phone Number '+phone);
+	
+}
+
+function invoke(){
+	
+	show()
+}
+invoke();

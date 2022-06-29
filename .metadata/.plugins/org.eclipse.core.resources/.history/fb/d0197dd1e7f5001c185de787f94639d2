@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Box Model</title>
+</head>
+<body>
+
+<div id="otermost" class="outer">
+	<div id="inner" class="inner">
+		<div id="child" class="child">India</div>
+		<div id="child1" class="child1">Australia</div>
+		<div id="child3" class="child3">Dubai</div>
+	</div>
+</div>
+</body>
+</html>

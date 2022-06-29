@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Learn JavaScript</title>
+<script type="text/javascript" src="scripts/qickstart.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+display();
+app.display()
+</script>
+<div>Learning javaScript</div>
+<p id="meg">Master of Java</p>
+</body>
+</html>

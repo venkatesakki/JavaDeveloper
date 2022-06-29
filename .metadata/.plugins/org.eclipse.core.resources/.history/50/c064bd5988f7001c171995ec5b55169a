@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+
+function validate(){
+	
+	
+	alert('validate function')
+}
+function init(){
+	
+	var formElement=document.getElementById('regForm');
+	
+	formElement.addListener('submit',validation);
+}

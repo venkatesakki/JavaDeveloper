@@ -1,0 +1,23 @@
+/**
+ * Example on Different ways of writing javaScript function
+ */
+
+
+//simple named function
+
+function simple()
+{
+	console.log("Hello World");
+}
+
+function withArgs(name)
+{
+	document.write('welcome'+name);
+}
+
+
+(function(){
+	
+	simple();
+	withArgs('venkat');
+})();

@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+
+
+function usingWindowObj(){
+	
+	window.location="http.//www.google.com";
+	
+}
+
+function windowObjOpen(){
+	
+	window.location="http.//www.google.com";
+	
+}
+
+function invoke(){
+	
+	var goToGoogleButton = document.getElementById('googleBtn');
+	goToGoogleButton.addEventListener('click',usingWindowObj);
+	
+	
+	
+	var openWindowButton=document.getElementById('openBtn');
+	openWindowButton.addEventListener('click',windowObjOpen)
+	
+	
+}
+(function(){
+	invoke();
+	
+})();
+
+

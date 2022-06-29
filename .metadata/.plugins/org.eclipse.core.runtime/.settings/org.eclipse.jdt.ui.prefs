@@ -1,0 +1,12 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.demo.servlet1.PersonalDetails"><rhs name\="com.demo.servlet1.PersonalDetails"/></lhs><lhs name\="com.training.servlet.Book"><rhs name\="com.training.servlet.Book"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.ReflectiveOperationException"><rhs name\="java.lang.ClassNotFoundException"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.lang.ClassNotFoundException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.lang.ClassNotFoundException"/></lhs><lhs name\="java.lang.ClassNotFoundException"><rhs name\="java.lang.ClassNotFoundException"/></lhs><lhs name\="com.example.demp.model.BookService"><rhs name\="com.example.demp.model.BookService"/></lhs><lhs name\="com.example.demp.model.Book"><rhs name\="com.example.demp.model.Book"/></lhs><lhs name\="com.example.demp.model.CrudRepository"><rhs name\="com.example.demp.model.DBBookRepository"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.servlet.DispatcherType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.servlet.DispatcherType"/></lhs><lhs name\="com.training.interface1.CrudRepository"><rhs name\="com.training.practice.StudentRespository"/></lhs><lhs name\="com.training.practice.StudentCall"><rhs name\="com.training.practice.StudentCall"/></lhs><lhs name\="com.training.practice.Student"><rhs name\="com.training.practice.Student"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

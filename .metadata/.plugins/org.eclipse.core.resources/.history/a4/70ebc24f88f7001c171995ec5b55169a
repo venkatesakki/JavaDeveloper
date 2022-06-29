@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+
+function init(){
+	
+	var formElement=document.getElementById('regForm');
+	
+	frmElement.addListener('submit',validation);
+}
